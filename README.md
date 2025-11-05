@@ -1,6 +1,6 @@
 # Er. Arunkumar Pathmanaban
 
-## Technical Tutor - KGISL
+## Technical Tutor & AI-DS Lead - KGISL
 
 **Full-Stack Development | AI & ML | DADS | Cybersecurity**
 
@@ -22,7 +22,7 @@
 
 ## 💼 Professional Experience
 
-### Technical Tutor | KGISL
+### AI-DS Lead | KGISL
 
 **Key Responsibilities:**
 
