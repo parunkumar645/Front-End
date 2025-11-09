@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .animation1 {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            margin: 0%;
+            animation: anime 10s ease-in;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+            border: 2px solid;
+            position: absolute;
+ }
+        /* .te{
+            
+           position: absolute;
+            
+        } */
+
+        @keyframes anime {
+            0%{background-color:black ; 
+                left:0;
+                top: 0;
+                }
+
+            25%{background-color:maroon ;
+                 left:calc(100% - 200px) ;
+                 top: 0;
+            }
+            50%{background-color: blue;
+                top: calc(100% - 200px);
+                left:calc(100% - 200px) ;
+                bottom: 0;
+                right: 0;
+
+            }
+            75%{background-color: aqua;
+                top: calc(100% - 200px);
+                left:0 ;
+               
+            }
+            100%{background-color: chartreuse;
+                left: 0;
+                top: 0;
+                bottom: calc(100% - 200px);
+
+            }
+     
+        }
+    </style>
+</head>
+<body>
+    <div class="animation1"></div>
+    <!-- <h1 class="te">chandru</h1> -->
+</body>
+</html>

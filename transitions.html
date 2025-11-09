@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            margin-bottom: 10px;
+            margin-left: calc(50% - 50px);
+            filter: drop-shadow(10px 10px 5px grey);
+        }
+        .d1{
+            transition-timing-function: ease;
+            transition-duration: 3s;
+            color: aliceblue;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .d1:hover{
+            width: 450px;   
+        }
+        .d2{
+            transition-timing-function: linear;
+            transition-duration: 3s;
+            color: aliceblue;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .d2:hover{
+            width: 450px;   
+        }
+        .d3{
+            transition-timing-function: ease-in;
+            transition-duration: 3s;
+            color: aliceblue;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .d3:hover{
+            width: 450px;   
+        }
+        .d4{
+            transition-timing-function: ease-out;
+            transition-duration: 3s;
+            color: aliceblue;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .d4:hover{
+            width: 450px;   
+        }
+        .d5{
+            transition-timing-function: ease-in-out;
+            transition-duration: 3s;
+            color: aliceblue;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .d5:hover{
+            width: 450px;   
+        }
+    </style>
+</head>
+<body>
+    <h1>Transition</h1>
+    <div class="d1">ease</div>
+    <div class="d2">linear</div>
+    <div class="d3">ease-in</div>
+    <div class="d4">ease-out</div>
+    <div class="d5">ease-in-out</div>
+</body>
+</html>

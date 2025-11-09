@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:grid;
+            gap: 10px;
+            background-color: black;
+            font-size: large;
+            grid-template-areas: 
+            'header header header'
+            'aside main1 main2'
+            'footer footer footer';
+            grid-template-columns: 1fr 2fr 2fr;
+            grid-template-rows: 20% 1fr 20%;
+            height: 100vh;
+            margin: 0%
+            
+            
+        }
+        header{
+            grid-area: header;
+            background-color: crimson;
+            color: aliceblue;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        aside{
+            grid-area: aside;
+            background-color: rgb(245, 149, 168);
+            color: aliceblue;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main1{
+            grid-area: main1;
+            background-color: rgb(93, 28, 41);
+            color: aliceblue;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .main2{
+            grid-area: main2;
+            background-color: rgb(122, 2, 26);
+            color: aliceblue;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        footer{
+            grid-area: footer;
+            background-color: crimson;
+            color: aliceblue;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>Heading</header>
+    <aside>Aside</aside>
+    <main class="main1">Main</main>
+    <main class="main2">Test</main>
+    <footer>Footer</footer>
+</body>
+</html>
